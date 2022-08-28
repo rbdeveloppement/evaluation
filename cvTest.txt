@@ -1,0 +1,122 @@
+﻿
+// //Exo 1 : Déclarer une variable de type string nommée text
+// string text;
+
+// //Exo 2 : Initialiser une variable de type int nommée number avec la valeur 0
+// int number = 0;
+
+// //Exo 3 : Déclarer une variable de type byte nommée counter
+// byte counter;
+
+// //Exo 4 : Affecter la variable counter avec la valeur 1
+// counter = 1;
+
+// //Exo 5 : Initialiser une variable nommée test qui permettra de stocker soit vrai soit faux (booléen)
+// bool test;
+
+// //Exo 6 : initialiser 2 variables a et b de type entier avec les valeurs 7 et 3
+// // initialiser une variable sum qui a pour valeur la somme de a et b
+// // initialiser une variable dif qui a pour valeur la différence entre a et b
+// // initialiser une variable prod qui a pour valeur le produit de a par b
+// // initialiser une variable quot qui a pour valeur le quotient de a par b 
+// // initialiser une variable rest qui a pour valeur le modulo de a par b
+// int a = 7, b = 3;
+// int sum = a + b;
+// int dif = a - b;
+// int prod = a * b;
+// int quot = a / b;
+// int rest = a % b;
+
+// //Exo 7 : Initialiser une variable de type string avec le resultat de la lecture d'une ligne saisie par l'utilisateur dans la console.
+// string saisie = Console.ReadLine();
+
+//Exo 8 : Écrire un algorithme qui demande à l’utilisateur de saisir son nom, son prénom et son âge.
+// Une fois les infos saisies, l’algorithme doit afficher le nom complet et indiquer également si l’utilisateur est mineur ou majeur.
+// Console.WriteLine("Votre nom ?");
+// string nom = Console.ReadLine();
+// Console.WriteLine("Votre prénom ?");
+// string prenom = Console.ReadLine();
+// Console.WriteLine("Votre age ?");
+// string ageSaisi = Console.ReadLine();
+
+// int age = Int32.Parse(ageSaisi);
+
+// bool isMajor = age >= 18;
+
+// if(isMajor){
+//     Console.WriteLine("Vous êtes majeur.");
+//     Console.WriteLine("Bienvenu");
+// }
+// else{
+//     Console.WriteLine("Vous êtes mineur.");
+//     Console.WriteLine("Interdit !");
+// }
+
+// Console.WriteLine();
+
+//Exo 9
+//Demander à l'utilisateur de saisir un nombre
+//Lui indiquer si ce nombre est positif ou négatif (0 est positif)
+// Console.WriteLine("Veuillez saisir un nombre");
+// string nbSaisi = Console.ReadLine();
+// int nb = Convert.ToInt32(nbSaisi);
+
+// if (nb >= 0)
+// {
+//     Console.WriteLine("positif");
+// }
+// else
+// {
+//     Console.WriteLine("negatif");
+// }
+
+//Exo 9 bis
+//Demander à l'utilisateur de saisir un nombre
+//Lui indiquer si ce nombre est positif, s'il est négatif ou s'il vaut 0
+
+// if(nb == 0){
+//     Console.WriteLine("null");
+// }
+// if(nb > 0){
+//     Console.WriteLine("positif");
+// }
+// if(nb < 0){
+//     Console.WriteLine("négatif");
+// }
+
+// Exo 10
+// // Écrire un Algorithme qui permet à l’utilisateur de faire une opération (somme, soustraction, … ) avec 2 nombres, puis en afficher le résultat.
+// Console.WriteLine("saisir nombre 1 ?");
+// string saisie1 = Console.ReadLine();
+// Console.WriteLine("saisir nombre 2 ?");
+// string saisie2 = Console.ReadLine();
+// Console.WriteLine("choisir l'opération: + - * /");
+// string operateur = Console.ReadLine();
+// int nb1 = Convert.ToInt32(saisie1);
+// int nb2 = Convert.ToInt32(saisie2);
+// int result = 0;
+// if(operateur == "+"){
+//     result = nb1 + nb2;
+// }
+// if(operateur == "-"){
+//     result = nb1 - nb2;
+// }
+// if(operateur == "*"){
+//     result = nb1 * nb2;
+// }
+// if(operateur == "/"){
+//     result = nb1 / nb2;
+// }
+// Console.WriteLine("Le resultat de " + saisie1 + " " + operateur + " " + saisie2 + " vaut : " + result);
+
+// Exo 11
+//Écrire un algorithme qui demande trois mots à l’utilisateur et l’informe ensuite s’ils sont rangés ou non dans l’ordre alphabétique. 
+//(les mots saisis seront tous en minuscule)
+
+//Correction semaine prochaine
+
+//Exo 12
+// Écrire un algorithme qui demande trois mots à l’utilisateur puis les afficher à l’utilisateur en les classant dans l’ordre alphabétique.
+// (les mots saisis seront tous en minuscule)
+
+//Correction semaine prochaine
